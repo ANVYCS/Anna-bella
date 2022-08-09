@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+body {
+  background: #d2d2c1 url('imgs/fundo.png');
+}
+
+#principal {  /* Formatação do cabeçalho */
+  width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#menu {  /* Formatação do menu de navegação */
+  background: #939591;
+  padding: 18px;
+  text-align: center;
+  border-radius: 1px;
+}
+
+#capa {  /* Formatação da capa */
+  width: 900px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 5px;
+}
+
+#conteudo {  /* Formatação do conteúdo */
+  background: #e8e8d9;
+  padding: 10px;
+  border: 8px solid #939591;
+  border-radius: 1px;
+}
+
+#rodape {  /* Formatação do rodapé */
+  padding: 10px;
+  text-align: center;
+}
+
+a {  /* Formatação dos links */
+  color: #4b566a;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+}
+
+a:link, a:visited {  /* Formatação dos links visitados */
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+a:hover {  /* Formatação do link ao passar o mouse */
+  color: #4b566a;
+  background: #fff;
+  text-decoration: none;
+}
+
+h1 {  /* Formatação do título h1 */
+  color: #828271;
+  font-size: 1.5em;
+  text-align: center;
+}
+ 
+.imgs-campaigns {  /* Formatação das imagens das campanhas */
+  border: 8px solid #939591;
+  display: block;
+  margin: 0px auto;
+  border-radius: 4px;
+}
+
+/* Desenvolvido por: Yuri C. Oliveira */
